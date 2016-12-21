@@ -22,6 +22,7 @@ public class UserManagement
 		 
 		 driver.findElement(By.xpath("//*[@id='mainnav-menu']/li[9]/a/i")).click();
 		 driver.quit();
+		 //comment by preethi
 }
 	 
 	
