@@ -2,6 +2,7 @@ package CEN;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -18,6 +19,8 @@ public class UserManagement
 	 @Test
 	  public void TC_1() throws InterruptedException
 	 {
+		 
+		 driver.findElement(By.xpath("//*[@id='mainnav-menu']/li[9]/a/i")).click();
 }
 	 
 	
