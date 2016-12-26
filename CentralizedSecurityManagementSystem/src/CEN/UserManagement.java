@@ -50,7 +50,11 @@ public class UserManagement
 
 	  @AfterTest
 	  public void afterTest() {
+		  // test case # 
+		  Action action = new Action (driver);
+		  
 		  driver.quit();
+		  
 	  }
 
 }
